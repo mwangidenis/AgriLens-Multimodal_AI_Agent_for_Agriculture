@@ -1,0 +1,31 @@
+# Core libraries
+streamlit
+pillow
+opencv-python
+numpy
+pandas
+
+# OCR
+easyocr
+torch  # Required by EasyOCR
+
+# LLM & NLP
+transformers
+sentence-transformers
+langchain
+
+# Image classification (optional for crop disease detection)
+ultralytics  # For YOLOv8
+scikit-learn
+
+# Backend (optional if scaling beyond Streamlit)
+fastapi
+uvicorn
+
+# Export & formatting
+openpyxl  # For Excel export
+python-docx  # For document parsing
+
+# Misc
+requests
+tqdm
